@@ -9,6 +9,9 @@ body {
 }
 
 .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: black;
     color: #ffffff;
@@ -18,7 +21,7 @@ body {
 
 .container {
     display: grid;
-    width: 100vmin;
+    width: 40%;
     margin: 0 60vh;
     padding: 3vmin;
     align-items: center;
@@ -51,6 +54,8 @@ span {
 
 .getname {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .name,
@@ -62,4 +67,23 @@ span {
     font-weight: 700;
     background-color: #ffffff;
     color: black;
+}
+
+
+
+
+
+@media(max-width:975px){
+
+    .container{
+    width: 90%;
+    margin: 10vh 2vh;
+    padding: 6vh 0vh;
+
+    }
+
+    .avatar {
+        height: 5vh;
+    }
+
 }
