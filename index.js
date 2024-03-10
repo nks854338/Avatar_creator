@@ -5,7 +5,7 @@ let submitName = document.querySelector(".submit");
 
 submitName.addEventListener('click', () => {
     let name = input.value;
-    let imageUrl = "https://joesch.moe/api/v1/name" + encodeURIComponent(name);
+    let imageUrl = "https://joesch.moe/api/v1/" + encodeURIComponent(name);
     document.getElementById("img").src = imageUrl;
     UserName.innerText = name;
     input.value = "";
