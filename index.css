@@ -29,6 +29,7 @@ body {
     gap: 8vmin;
     background-color: black;
     margin-top: 8vmin;
+    border-radius: 15px;
 
 }
 
@@ -63,7 +64,7 @@ span {
     padding: 1vmin;
     border-radius: 10px;
     text-align: center;
-    font-size: 2.5vmin;
+    font-size: 15px;
     font-weight: 700;
     background-color: #ffffff;
     color: black;
@@ -76,14 +77,18 @@ span {
 @media(max-width:975px){
 
     .container{
-    width: 90%;
-    margin: 10vh 2vh;
+    width: 95%;
+    margin: 10vh 1vh;
     padding: 6vh 0vh;
-
+    border-radius: 10px;
     }
 
     .avatar {
         height: 5vh;
+    }
+
+    .display_name {
+        font-size: 20px;
     }
 
 }
