@@ -1,1 +1,1 @@
-https://nks22bsc10085.github.io/Avatar_creator/
+https://nks854338.github.io/Avatar_creator/
